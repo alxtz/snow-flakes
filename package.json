@@ -1,10 +1,9 @@
 {
   "name": "snow-flakes",
   "main": "./lib/snow-flakes",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Snow In Your Editor!",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "snow-flakes:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
