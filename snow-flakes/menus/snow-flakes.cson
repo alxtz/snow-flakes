@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle snow-flakes'
+      'command': 'snow-flakes:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'snow-flakes'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'snow-flakes:toggle'
+        }
+      ]
+    ]
+  }
+]
