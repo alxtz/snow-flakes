@@ -2,13 +2,13 @@
   "name": "snow-flakes",
   "main": "./lib/snow-flakes",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Snow In Your Editor!",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "snow-flakes:toggle"
   },
-  "repository": "https://github.com/atom/snow-flakes",
+  "repository": "https://github.com/alxtz/snow-flakes",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
